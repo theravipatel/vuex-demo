@@ -3,6 +3,7 @@ import HomePage from './components/HomePage.vue';
 import AboutPage from './components/AboutPage.vue';
 import ProfilePage from './components/ProfilePage.vue';
 import PageNotFoundPage from './components/PageNotFoundPage.vue';
+import LoginPage from './components/LoginPage.vue';
 
 const routes = [
     {
@@ -14,6 +15,11 @@ const routes = [
         name: 'AboutPage',
         path: '/about-us',
         component: AboutPage
+    },
+    {
+        name: 'LoginPage',
+        path: '/login',
+        component: LoginPage
     },
     {
         name: 'ProfilePage',
